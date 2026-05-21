@@ -1,4 +1,7 @@
-body {
+
+#hoverBtn:hover {
+    background-color: pink;
+}body {
     margin: 0;
     transition: background-color 0.5s ease, color 0.5s ease;
 }

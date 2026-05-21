@@ -1,4 +1,8 @@
+
+document.body.style.backgroundColor = "beige";
+
 function changeColor(color) {
+};function changeColor(color) {
     if (color == 'black') {
         document.querySelector('body').style = 'background-color:black;color:white';
         document.querySelector('.js-color').innerHTML = 'Black🖤';
@@ -39,4 +43,15 @@ function changeColor(color) {
         document.querySelector('body').style = 'background-color:blueviolet;color:white;';
         document.querySelector('.js-color').innerHTML = 'BlueViolet💜';
     }
+}
+document.body.style.backgroundColor = "beige";
+
+function changeColor(color) {
+    document.body.style.backgroundColor = color;
+}
+
+let playerBtn = document.getElementById("playerBtn");
+
+playerBtn.onclick = function() {
+    document.body.innerHTML += "<p>Lionel Messi</p>";
 }
